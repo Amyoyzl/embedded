@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\startup_stm32f40_41xxx.o"
+".\objects\usart.o"
+".\objects\ili93xx.o"
+".\objects\myled.o"
+".\objects\myuart2.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\stm32uart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\stm32uart.map" -o .\Objects\stm32uart.axf

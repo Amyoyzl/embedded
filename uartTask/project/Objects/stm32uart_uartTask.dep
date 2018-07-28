@@ -1,0 +1,83 @@
+Dependencies for Project 'stm32uart', Target 'uartTask': (DO NOT MODIFY !)
+F (..\system\delay\delay.c)(0x5B4369C1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\system\delay\delay.h)(0x555D4A38)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\system\sys\sys.c)(0x5B4369AE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\system\sys\startup_stm32f40_41xxx.s)(0x542E6B04)(--cpu Cortex-M4.fp -g --apcs=interwork -I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\system\usart\usart.c)(0x5B436983)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\system\usart\usart.h)(0x5B457295)
+I (D:\software\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\system\usart\usart.h)(0x5B457295)()
+F (..\hardware\lcd\ILI93xx.c)(0x5B43692E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\ili93xx.o --omf_browse .\objects\ili93xx.crf --depend .\objects\ili93xx.d)
+I (..\system\lcd\lcd.h)(0x55C08D4D)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (D:\software\Keil\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\system\lcd\font.h)(0x52C52FE7)
+I (..\system\usart\usart.h)(0x5B457295)
+I (D:\software\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\system\delay\delay.h)(0x555D4A38)
+F (..\hardware\led\myled.c)(0x5B436AD0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\myled.o --omf_browse .\objects\myled.crf --depend .\objects\myled.d)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\hardware\uart\myuart2.c)(0x5B47F2E7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\myuart2.o --omf_browse .\objects\myuart2.crf --depend .\objects\myuart2.d)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\system\usart\usart.h)(0x5B457295)
+I (D:\software\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\user\main.c)(0x5B47F787)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\lcd-I E:\embaded\uartTask\project\RTE-I D:\software\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\software\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\system\sys\sys.h)(0x5B456D5E)
+I (..\system\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\system\sys\core_cm4.h)(0x53C7D532)
+I (D:\software\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\system\sys\core_cmInstr.h)(0x53C7D532)
+I (..\system\sys\core_cmFunc.h)(0x53C7D532)
+I (..\system\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\system\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\system\usart\usart.h)(0x5B457295)
+I (D:\software\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\system\delay\delay.h)(0x555D4A38)
+I (D:\software\Keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\system\lcd\lcd.h)(0x55C08D4D)
+I (D:\software\Keil\ARM\ARMCC\include\stdlib.h)(0x5475F300)
